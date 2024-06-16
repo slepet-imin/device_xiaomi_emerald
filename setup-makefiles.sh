@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=yunluo
+DEVICE=emerald
 VENDOR=xiaomi
 
 # Load extract_utils and do some sanity checks
@@ -28,7 +28,7 @@ source "${HELPER}"
 setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}"
 
 # Warning headers and guards
-write_headers "${DEVICE}" "TARGET_DEVICE" "device/xiaomi/yunluo,hardware/mediatek,hardware/xiaomi"
+write_headers "${DEVICE}" "TARGET_DEVICE" "device/xiaomi/emerald,hardware/mediatek,hardware/xiaomi"
 
 write_makefiles "${MY_DIR}/proprietary-files.txt" true
 

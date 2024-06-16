@@ -300,9 +300,9 @@ PRODUCT_COPY_FILES += \
 
 # Overlays
 PRODUCT_PACKAGES += \
-	FrameworksResOverlayYunluo \
-    SettingsResOverlayYunluo \
-    WifiResOverlayYunluo
+	FrameworksResOverlayEmerald \
+    SettingsResOverlayEmerald \
+    WifiResOverlayEmerald
 
 # Init files
 PRODUCT_PACKAGES += \
@@ -366,4 +366,4 @@ PRODUCT_SOONG_NAMESPACES += \
 include $(LOCAL_PATH)/configs/props/vendor_log_tags.mk
 
 # Inherit our proprietary vendor
-$(call inherit-product, vendor/xiaomi/yunluo/yunluo-vendor.mk)
+$(call inherit-product, vendor/xiaomi/emerald/emerald-vendor.mk)

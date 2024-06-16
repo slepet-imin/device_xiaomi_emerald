@@ -4,8 +4,9 @@
 //
 
 runtime_resource_overlay {
-    name: "WifiResOverlayYunluo",
+    name: "SettingsResOverlayEmerald",
     sdk_version: "current",
     vendor: true,
     resource_dirs: ["res"]
 }
+
